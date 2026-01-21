@@ -1,6 +1,6 @@
-# Advanced Network Troubleshooting & Implementation (ENARSI)
+# Network Architecture Repository
 
-This repository is a specialized technical resource dedicated to the **implementation, optimization, and troubleshooting** of network architectures, strictly aligned with the **Cisco ENARSI (300-410)** certification objectives. 
+This repository is a specialized technical resource dedicated to the **implementation, optimization, and troubleshooting** of network architectures, strictly aligned with the Cisco ENARSI (300-410) certification objectives. 
 
 It serves as a progressive portfolio documenting the resolution of complex routing scenarios and infrastructure services in simulated corporate environments.
 
@@ -21,8 +21,8 @@ Every topology includes visual and technical evidence of the validation process:
 
 | File/Folder | Purpose |
 | :--- | :--- |
-| **topology.md** | Detailed technical documentation, objectives, and verification steps. |
-| **/image** | High-resolution topology diagrams and CLI screenshots. |
+| **topology.md** | Technical documentation, objectives, and verification steps. |
+| **/image** | Topology diagrams and CLI screenshots. |
 | **/config** | YAML files used to bootstrap/import the lab into CML. |
 
 ---
