@@ -1,21 +1,23 @@
-# Network Architecture Repository
+# Advanced Network Troubleshooting & Implementation (ENARSI)
 
-This repository is a specialized technical resource featuring network architectures aligned with **CCNP Enterprise** certification objectives. It serves as a centralized hub for the design, validation, and documentation of complex corporate infrastructures.
+This repository is a specialized technical resource dedicated to the **implementation, optimization, and troubleshooting** of network architectures, strictly aligned with the **Cisco ENARSI (300-410)** certification objectives. 
 
----
-
-## Project Scope
-Each simulation environment is built to address key domains of the ENCOR and ENARSI exams:
-
-* **Advanced Routing:** Implementation and tuning of OSPF, EIGRP, and MP-BGP.
-* **WAN Connectivity:** Enterprise edge solutions including DMVPN and site-to-site tunnels.
-* **Security:** Infrastructure hardening, CoPP, and secure management planes.
-* **Automation:** Utilizing CML features for lab orchestration and node configuration.
+It serves as a progressive portfolio documenting the resolution of complex routing scenarios and infrastructure services in simulated corporate environments.
 
 ---
 
-## Repository Structure
-To maintain consistency and ease of use, every topology is organized into a dedicated folder with the following standardized sub-folders:
+## Project Focus: ENARSI Domains
+Each lab is designed to validate technical knowledge in the following areas:
+
+* **Layer 3 Technologies:** Advanced tuning and troubleshooting of **EIGRP, OSPF (v2/v3), and BGP**.
+* **Route Manipulation:** Control of traffic using **Redistribution, Route-Maps, Prefix-Lists, and Policy-Based Routing (PBR)**.
+* **VPN Services & Infrastructure:** Implementation and diagnostics of **MPLS, DMVPN, and IPv6** transitions.
+* **Infrastructure Security & Services:** Hardening the control plane (**CoPP**), securing management, and troubleshooting services like SNMP, DHCP, and IP SLA.
+
+---
+
+## Repository Structure & Methodology
+Every topology includes visual and technical evidence of the validation process:
 
 | File/Folder | Purpose |
 | :--- | :--- |
@@ -29,16 +31,8 @@ To maintain consistency and ease of use, every topology is organized into a dedi
 
 ### 1. Clone the Project
 ```
-git clone [https://github.com/francociarfaglia/topologies.git](https://github.com/francociarfaglia/topologies.git)
+git clone [https://github.com/francociarfaglia/enarsi_labs.git](https://github.com/francociarfaglia/enarsi_labs.git)
 ```
 ### 2. Import Lab:
 
 Log into your CML instance, click **Import**, and select the `.yaml` file found in the `/config` folder of the specific lab.
-
----
-
-### Project Goals
-
-* **Design:** Professional-grade corporate infrastructure layouts.
-* **Validation:** Step-by-step verification of routing and switching logic.
-* **Documentation:** High-quality diagrams and technical summaries for study and reference.
